@@ -1,0 +1,37 @@
+#header{
+    background-color:burlywood;
+    text-align: center;
+    /* padding penulisan tunggal */
+    padding: Spx;
+    /* padding: Spx Spx 100px Spx */
+}
+#header h1{
+color: rgb(29, 94, 147);
+}
+
+#header blockquote{
+background-color: yellow;
+border: 2px dotted;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.gambar{
+    text-align-last: center;
+}
+.gambar img{
+    width: 150px;
+}
+/* pseudo selector */
+.fp::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+.koleksi{
+    text-align: center;
+}
+.koleksi img{
+    width: 140px;
+}
